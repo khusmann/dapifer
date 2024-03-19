@@ -15,6 +15,8 @@ NULL
 #' @export
 hello_world <- function() .Call(wrap__hello_world)
 
+#' Return 42 to R
+#' @param y A list parameter
 #' @export
 add <- function(y) .Call(wrap__add, y)
 

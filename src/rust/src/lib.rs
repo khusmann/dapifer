@@ -1,5 +1,7 @@
 use extendr_api::prelude::*;
 
+/// Return 42 to R
+/// @param y A list parameter
 /// @export
 #[extendr]
 fn add(y: Robj) -> i32 {
